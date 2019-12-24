@@ -10,18 +10,38 @@ h1, h2, h3 {
 
 p {
 	color: #70747A;
+  text-indent: 1.5em;
 }
 
-.container {
-    padding: auto 2em;
-    margin-right: auto;
-    margin-left: auto;
+.content {
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.content h1 {
+	font-size: 32px;
+  font-family: 'Tamira';
+  text-align: center;
+}
+
+.content h2 {
+	font-size: 20px;
+}
+
+#home .banner {
+  height: 550px;
+  background-image: url(../img/banner.png);
+  background-position: center;
+	background-size: cover;
 }
 
 /* nav */
 .nav-container {
 	width: 100%;
-	padding: 0 2em;
+	padding: 0 4em;
 	position: relative;
 	box-sizing: border-box;
   background: #3CB371;
