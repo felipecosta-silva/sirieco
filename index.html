@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" name="viewport">
   <meta name="author" content="Felipe Costa">
     <!-- Definindo uma descrição para o site, melhora a performance nas buscas do google -->
   <meta name="description" content="ONG SiriEco">
@@ -22,17 +22,17 @@
   <div class="container">
     <header>
       <nav class="nav-container box-shadow" id="menu">
-        <a href="#"><img alt="Brand" class="logo" src="img/Logo/SiriEco.png"></a>
+        <a href="#home"><img alt="Brand" class="logo" src="img/Logo/SiriEco.png"></a>
         <div class="nav-items">
           <ul class="nav-menu">
-            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
             <li><a href="#">Eventos</a>
               <ul>
                 <li><a href="pags/ambiental.html">Ambiental</a></li>
                 <li><a href="pags/social.html">Social</a></li>
               </ul>
             </li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
           <ul>
             <li>
@@ -52,26 +52,59 @@
     <main>
       <!-- Section Home -->
       <section id="home">
-        <div class="banner"></div>
+        <div class="banner">
+          <div class="slogan">
+            <p>Podemos não mudar o mundo</p>
+            <h1>Mas estamos fazendo a nossa parte</h1>
+          </div>
+        </div>
       </section>
       <!-- Section Sobre -->
-      <Section class="content">
+      <Section class="content" id="about">
         <div class="session-about">
           <h1>Um pouco sobre nós</h1>
           <p>A Ong SiriEco foi idealizada a mais de 10 anos atrás, mas apénas em 2017 que foi registrada como Sirinhaém Ecológico, onde foi que iniciamos com o trabalho de ecologia que somou ao trabalho social que ja fazia-mos na cidade de Jaboatão dos Guararapes.</p>
         </div>
       </Section>
-      <!-- Section Eventos -->
+      <!-- Event Session -->
       <Section class="content">
-        <div>
-          <h3></h3>
+        <div id="events">
+          <div>
+            <h1>Ultimos Eventos Sociais</h1>
+          </div>
+          <div id="event-session">
+            <div class="events-photo">
+              <h3>Natal da Crianças 2019</h3>
+              <div class="photo" id="natal2019"><a href="../events"></a></div>
+            </div>
+            <div class="events-photo">
+              <h3>Natal Solidário 2019</h3>
+              <div class="photo" id="natalsolidario2019"><a href="../events"></a></div>
+            </div>
+            <div class="events-photo">
+              <h3>São João Solidário 2019</h3>
+              <div class="photo" id="pascoa2019"><a href="../events"></a></div>
+            </div>
+          </div>
         </div>
       </Section>
       <!-- Section Contato -->
-      <Section class="content">
-      
-      </Section>
+      <section class="content" >
+        <div id="contact">
+          <h1>Entre em contato</h1>
+          <p>Mandede-nos uma mensagem, vamos adorar saber o que você tem para nos dizer</p>
+          <form>
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <textarea name="message" placeholder="Digite sua mensagem"></textarea>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+      </section>
     </main>
+    <footer>
+      <p> 2019 @ FelipeCosta - Todos os direitos reservados</p>
+    </footer>
 	</div> 
 </body>
 </html>
