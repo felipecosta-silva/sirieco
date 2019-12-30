@@ -116,7 +116,7 @@ nav {
 }
 
 .nav-menu li ul li:hover {
-  background: #3CB371;
+  background: #3cb371;
  }
 
 .nav-items li {
@@ -127,7 +127,7 @@ nav {
 }
 
 .nav-items li:hover{ 
-  background: #8FBC8F;
+  background: #308f5a;
   transition: 0.05s;
 }
 
@@ -135,6 +135,15 @@ nav {
 	text-decoration: none;
   padding: 10px;
   color: #000;
+}
+
+/*  section about  */
+
+.session-about {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 /*  sections Eventos   */
