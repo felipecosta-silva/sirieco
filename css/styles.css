@@ -5,7 +5,7 @@ body{
 }
 
 h1, h2, h3 {
-	color: #333;
+	color: #000;
 }
 
 p {
@@ -18,7 +18,8 @@ p {
   margin-right: 4em;
   padding-left: 15px;
   padding-right: 15px;
-
+  text-align: center;
+  padding-top: 5em;
 }
 
 .content h1 {
@@ -28,23 +29,47 @@ p {
 }
 
 .content h2 {
-	font-size: 20px;
+	font-size: 26px;
+}
+
+.content h3 {
+  font-size: 20px;
+  text-align: center;
 }
 
 #home .banner {
-  height: 550px;
+  /*height: 550px;*/
   background-image: url(../img/banner.png);
   background-position: center;
 	background-size: cover;
+  padding: 12em 0;
 }
+
+.banner p {
+  color: #000;
+}
+
+.slogan {
+padding-left: 5%;
+font-weight: bold;
+}
+
+.slogan p {
+  font-size: 32px;
+}
+
+.slogan h1 {
+  font-size: 54px;
+  color: #fff;
+}
+
 
 /* nav */
 .nav-container {
-	width: 100%;
 	padding: 0 4em;
-	position: relative;
 	box-sizing: border-box;
   background: #3CB371;
+  position: relative;
 }
 
 box-shadow{
@@ -59,9 +84,9 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
 }
 
 nav {
-  position: relative;
   height: 80px;
   line-height: 80px;
+  position: relative;
   width: 100%;
 }
 
@@ -82,21 +107,21 @@ nav {
   float: left;
 }
 
-.nav-menu ul{
+.nav-menu ul {
   display: none;
 }
 
 .nav-menu li:hover > ul{
-	display:block;
+  display: block;
 }
 
 .nav-menu li ul li:hover {
   background: #3CB371;
-}
+ }
 
 .nav-items li {
 	display: inline-block;
-  position:relative; 
+  position: relative; 
   float: left;
   width: 100px;
 }
@@ -112,3 +137,119 @@ nav {
   color: #000;
 }
 
+/*  sections Eventos   */
+
+#events {
+  position: relative;
+}
+
+#event-session {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 90%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events-photo {
+  flex: 1 1 200px;
+  max-width: 270px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#event-session #natal2019 {
+  height: 80%;
+  background-image: url(../img/events/natal2019/photo1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#event-session #natalsolidario2019 {
+  height: 80%;
+  background-image: url(../img/events/natalsolidario2019/photo1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#event-session #pascoa2019 {
+  height: 80%;
+  background-image: url(../img/events/pascoa2019/photo1.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.photo {
+  border-radius: 15px;
+}
+
+/* contato */
+
+#contact {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #3CB371;
+}
+
+
+
+#contact h2 {
+  font-size: 36px;
+}
+
+#contact p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#contact input, #contact textarea {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  /*margin: auto 10px 20px 10px;  outra forma para fazer o que esta acima*/
+}
+
+#contact textarea {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 468px;
+  height: 150px;
+}
+
+#contact input[type=submit] {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333;
+  color: #FFF;
+}
+
+/* footer */
+
+footer p {
+ padding: 0;
+ margin: 0;
+ text-indent: 0;
+ color: #fff;
+ font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 2em 0;
+  background: #333;
+}
