@@ -175,7 +175,7 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
   margin-bottom: 5%;
 }
 
-.citacao{
+.session-about-citacao .citacao{
   max-width: 70%;
   font-size: 0.875em;
   color: #3CB371;
@@ -197,19 +197,13 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
 /*  sections Eventos   */
 
 #event-session {
-  display: grid;
-  max-width: 900px;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
-  padding: 30px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  grid-area: content;
-  margin: 0 auto;
-}
-
-#event-session p {
-  text-align: left;
 }
 
 .events-photo {
@@ -220,48 +214,30 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
   cursor: pointer;
 }
 
-.coluna1 {
-  grid-column: 1 / -1;
-}
-
 #event-session #natal2019 {
-  height: 350px;
-  background-image: url(../img/events/natal2019/photo2.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-row: span 2;
-  align-self: end;
-}
-
-#event-session #natal_2019 {
-  height: 220px;
+  height: 80%;
   background-image: url(../img/events/natal2019/photo1.jpg);
   background-position: center;
   background-size: cover;
 }
 
-#event-session #horta {
-  height: 300px;
-  background-image: url(../img/events/hortaescolar.jpg);
+#event-session #natalsolidario2019 {
+  height: 80%;
+  background-image: url(../img/events/natalsolidario2019/photo1.jpg);
   background-position: center;
   background-size: cover;
-  grid-row: span 2;
-  align-self: end;
 }
 
-#event-session #limpezapraia {
-  height: 200px;
-  background-image: url(../img/events/limpezapraia.jpg);
+#event-session #pascoa2019 {
+  height: 80%;
+  background-image: url(../img/events/pascoa2019/photo1.jpg);
   background-position: center;
   background-size: cover;
-  float: right;
+
 }
 
 .photo {
-  max-width: 100%;
-  width: 100%;
-  border-radius: 5px;
-  display: block;
+  border-radius: 15px;
 }
 
 /* contato */
