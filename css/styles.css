@@ -11,6 +11,8 @@ h1, h2, h3 {
 p {
 	color: #70747A;
   line-height: 1.6;
+  font-size: 1.2em;
+  line-height: 1.6;
 }
 
 cite {
@@ -212,6 +214,13 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
   text-align: left;
 }
 
+#event-session .citacao {
+  margin: 0;
+  padding: 0;
+  font-size: 0.875em;
+  max-width: 15em;
+}
+
 .events-photo {
   flex: 1 1 200px;
   max-width: 270px;
@@ -241,7 +250,7 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
 }
 
 #event-session #horta {
-  height: 300px;
+  height: 250px;
   background-image: url(../img/events/hortaescolar.jpg);
   background-position: center;
   background-size: cover;
@@ -249,13 +258,6 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
   align-self: end;
 }
 
-#event-session #limpezapraia {
-  height: 200px;
-  background-image: url(../img/events/limpezapraia.jpg);
-  background-position: center;
-  background-size: cover;
-  float: right;
-}
 
 .photo {
   max-width: 100%;
