@@ -12,7 +12,6 @@ p {
 	color: #70747A;
   line-height: 1.6;
   font-size: 1.2em;
-  line-height: 1.6;
 }
 
 cite {
@@ -234,12 +233,11 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
 }
 
 #event-session #natal2019 {
-  height: 350px;
+  height: auto;
   background-image: url(../img/events/natal2019/photo2.jpg);
   background-position: center;
   background-size: cover;
   grid-row: span 2;
-  align-self: end;
 }
 
 #event-session #natal_2019 {
