@@ -50,7 +50,7 @@ nav {
 
 #home .banner {
   /*height: 550px;*/
-  background-image: url(../img/banner.png);
+  background-image: url(../img/banner_.png);
   background-position: center;
 	background-size: cover;
   padding: 12em 0;
@@ -248,7 +248,7 @@ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
 }
 
 #event-session #horta {
-  height: 250px;
+  height: 100%;
   background-image: url(../img/events/hortaescolar.jpg);
   background-position: center;
   background-size: cover;
